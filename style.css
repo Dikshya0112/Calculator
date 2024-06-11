@@ -57,12 +57,12 @@ background-repeat: no-repeat;
 .btnR{
     background-color: rgba(255, 4, 0, 0.733);
 }
-@media only screen and (max-width: 1000px){
+@media only screen and (min-width: 1000px){
  .container{
-        width:40vw;
+        width:30vw;
     }
 }
-@media only screen and (min-width: 582px) {
+@media only screen and (min-width: 582px) and (max-width: 999px) {
     .container{
         width:40vw;
     }
@@ -75,8 +75,8 @@ background-repeat: no-repeat;
 }
 
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 378px) {
     .container{
-        width:55vw;
+        width:60vw;
     }
 }
